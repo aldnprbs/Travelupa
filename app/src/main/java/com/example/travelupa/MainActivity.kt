@@ -175,7 +175,6 @@ fun AppNavigation(
     }
 }
 
-// --- SCREEN: LOGIN MODERN ---
 @Composable
 fun LoginScreen(onLoginSuccess: () -> Unit) {
     var email by remember { mutableStateOf("") }
